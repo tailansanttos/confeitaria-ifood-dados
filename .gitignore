@@ -3,3 +3,4 @@ data/processed/
 *.csv
 *.xlsx
 *.zip
+*.env
