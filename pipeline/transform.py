@@ -19,14 +19,18 @@ def create_dataframe(path_name: str) -> pd.DataFrame:
 
 
 def remove_nulos(df:pd.DataFrame) -> pd.DataFrame:
+
     df = df.dropna()
+    return df
+def padronizar_colunas(df: pd.DataFrame) -> pd.DataFrame:
+    df.columns = df.columns.str.lower().str.replace(" ", "_").str.replace("(r$)", "").str.strip("_")
     return df
 
 
 def padronizar_datetime(df: pd.DataFrame) -> pd.DataFrame:
-    df["DATA E HORA DO PEDIDO"] = pd.to_datetime(df['DATA E HORA DO PEDIDO'], dayfirst=True)
-    df["DATA PEDIDO"] = df["DATA E HORA DO PEDIDO"].dt.date
-    df["HORA PEDIDO"] = df['DATA E HORA DO PEDIDO'].dt.time
+    df["data_e_hora_do_pedido"] = pd.to_datetime(df['data_e_hora_do_pedido'], dayfirst=True)
+    df["data_pedido"] = df["data_e_hora_do_pedido"].dt.date
+    df["hora_pedido"] = df['data_e_hora_do_pedido'].dt.time
     return df 
 
 def salvar_df_processado(df: pd.DataFrame):
@@ -35,11 +39,13 @@ def salvar_df_processado(df: pd.DataFrame):
     df.to_csv(path)
 
 
+
 def transformation_data() -> pd.DataFrame:
     print(f'Iniciando transformação dos dados.')
     df = create_dataframe(path_relatorio)
     print(f"Arquivo com {len(df)} valores antes da transformação.")
     df = remove_nulos(df)
+    df = padronizar_colunas(df)
     df = padronizar_datetime(df)
     salvar_df_processado(df)
     print(f"Transformação concluida com sucesso. Relatório com {len(df)} valores pós transformação.")
