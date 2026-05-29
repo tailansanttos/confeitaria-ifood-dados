@@ -1,0 +1,758 @@
+[2026-05-29T12:53:47.844+0000] {processor.py:161} INFO - Started process (PID=78) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:53:47.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T12:53:47.850+0000] {logging_mixin.py:188} INFO - [2026-05-29T12:53:47.849+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:53:47.904+0000] {logging_mixin.py:188} INFO - [2026-05-29T12:53:47.896+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_ifood.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ifood.py", line 5, in <module>
+    from pipeline.limpa_nomes import arrumar_arquivos
+  File "/opt/airflow/pipeline/limpa_nomes.py", line 16, in <module>
+    arrumar_arquivos()
+  File "/opt/airflow/pipeline/limpa_nomes.py", line 7, in arrumar_arquivos
+    for arquivo in os.listdir(pasta_raw):
+                   ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../data/raw'
+[2026-05-29T12:53:47.908+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:53:47.938+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.106 seconds
+[2026-05-29T12:54:18.094+0000] {processor.py:161} INFO - Started process (PID=137) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:54:18.095+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T12:54:18.099+0000] {logging_mixin.py:188} INFO - [2026-05-29T12:54:18.098+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:54:18.122+0000] {logging_mixin.py:188} INFO - [2026-05-29T12:54:18.116+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_ifood.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ifood.py", line 5, in <module>
+    from pipeline.limpa_nomes import arrumar_arquivos
+  File "/opt/airflow/pipeline/limpa_nomes.py", line 16, in <module>
+    arrumar_arquivos()
+  File "/opt/airflow/pipeline/limpa_nomes.py", line 7, in arrumar_arquivos
+    for arquivo in os.listdir(pasta_raw):
+                   ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../data/raw'
+[2026-05-29T12:54:18.123+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:54:18.147+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.061 seconds
+[2026-05-29T12:54:48.224+0000] {processor.py:161} INFO - Started process (PID=196) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:54:48.224+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T12:54:48.227+0000] {logging_mixin.py:188} INFO - [2026-05-29T12:54:48.226+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:54:48.246+0000] {logging_mixin.py:188} INFO - [2026-05-29T12:54:48.241+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_ifood.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ifood.py", line 5, in <module>
+    from pipeline.limpa_nomes import arrumar_arquivos
+  File "/opt/airflow/pipeline/limpa_nomes.py", line 16, in <module>
+    arrumar_arquivos()
+  File "/opt/airflow/pipeline/limpa_nomes.py", line 7, in arrumar_arquivos
+    for arquivo in os.listdir(pasta_raw):
+                   ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../data/raw'
+[2026-05-29T12:54:48.247+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:54:48.267+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.050 seconds
+[2026-05-29T12:55:18.709+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:55:18.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T12:55:18.783+0000] {logging_mixin.py:188} INFO - [2026-05-29T12:55:18.783+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:55:18.887+0000] {logging_mixin.py:188} INFO - [2026-05-29T12:55:18.881+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_ifood.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ifood.py", line 5, in <module>
+    from pipeline.limpa_nomes import arrumar_arquivos
+  File "/opt/airflow/pipeline/limpa_nomes.py", line 16, in <module>
+    arrumar_arquivos()
+  File "/opt/airflow/pipeline/limpa_nomes.py", line 7, in arrumar_arquivos
+    for arquivo in os.listdir(pasta_raw):
+                   ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../data/raw'
+[2026-05-29T12:55:18.889+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:55:19.036+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.332 seconds
+[2026-05-29T12:55:49.200+0000] {processor.py:161} INFO - Started process (PID=321) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:55:49.201+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T12:55:49.203+0000] {logging_mixin.py:188} INFO - [2026-05-29T12:55:49.203+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:55:49.223+0000] {logging_mixin.py:188} INFO - [2026-05-29T12:55:49.218+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_ifood.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ifood.py", line 5, in <module>
+    from pipeline.limpa_nomes import arrumar_arquivos
+  File "/opt/airflow/pipeline/limpa_nomes.py", line 16, in <module>
+    arrumar_arquivos()
+  File "/opt/airflow/pipeline/limpa_nomes.py", line 7, in arrumar_arquivos
+    for arquivo in os.listdir(pasta_raw):
+                   ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../data/raw'
+[2026-05-29T12:55:49.225+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:55:49.246+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.052 seconds
+[2026-05-29T12:56:19.299+0000] {processor.py:161} INFO - Started process (PID=380) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:56:19.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T12:56:19.302+0000] {logging_mixin.py:188} INFO - [2026-05-29T12:56:19.301+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:56:19.322+0000] {logging_mixin.py:188} INFO - [2026-05-29T12:56:19.317+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_ifood.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ifood.py", line 5, in <module>
+    from pipeline.limpa_nomes import arrumar_arquivos
+  File "/opt/airflow/pipeline/limpa_nomes.py", line 16, in <module>
+    arrumar_arquivos()
+  File "/opt/airflow/pipeline/limpa_nomes.py", line 7, in arrumar_arquivos
+    for arquivo in os.listdir(pasta_raw):
+                   ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../data/raw'
+[2026-05-29T12:56:19.323+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:56:19.342+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.050 seconds
+[2026-05-29T12:56:49.834+0000] {processor.py:161} INFO - Started process (PID=439) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:56:49.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T12:56:49.838+0000] {logging_mixin.py:188} INFO - [2026-05-29T12:56:49.838+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:56:49.861+0000] {logging_mixin.py:188} INFO - [2026-05-29T12:56:49.856+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_ifood.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ifood.py", line 5, in <module>
+    from pipeline.limpa_nomes import arrumar_arquivos
+  File "/opt/airflow/pipeline/limpa_nomes.py", line 16, in <module>
+    arrumar_arquivos()
+  File "/opt/airflow/pipeline/limpa_nomes.py", line 7, in arrumar_arquivos
+    for arquivo in os.listdir(pasta_raw):
+                   ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../data/raw'
+[2026-05-29T12:56:49.863+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:56:49.883+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.056 seconds
+[2026-05-29T12:57:19.937+0000] {processor.py:161} INFO - Started process (PID=498) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:57:19.939+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T12:57:19.942+0000] {logging_mixin.py:188} INFO - [2026-05-29T12:57:19.942+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:57:19.975+0000] {logging_mixin.py:188} INFO - [2026-05-29T12:57:19.968+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/dag_ifood.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_ifood.py", line 5, in <module>
+    from pipeline.limpa_nomes import arrumar_arquivos
+  File "/opt/airflow/pipeline/limpa_nomes.py", line 16, in <module>
+    arrumar_arquivos()
+  File "/opt/airflow/pipeline/limpa_nomes.py", line 7, in arrumar_arquivos
+    for arquivo in os.listdir(pasta_raw):
+                   ^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../data/raw'
+[2026-05-29T12:57:19.978+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T12:57:20.006+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.077 seconds
+[2026-05-29T13:10:16.244+0000] {processor.py:161} INFO - Started process (PID=79) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:10:16.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:10:16.248+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:10:16.248+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:10:17.998+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:10:18.384+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:10:18.383+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:dag_pipeline_dados_ifood
+[2026-05-29T13:10:18.398+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:10:18.397+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:dag_pipeline_dados_ifood
+[2026-05-29T13:10:18.408+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:10:18.408+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:dag_pipeline_dados_ifood
+[2026-05-29T13:10:18.409+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:10:18.409+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:10:18.422+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:10:18.421+0000] {dag.py:3118} INFO - Creating ORM DAG for dag_pipeline_dados_ifood
+[2026-05-29T13:10:18.432+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:10:18.432+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-28 00:00:00+00:00, run_after=2026-05-29 00:00:00+00:00
+[2026-05-29T13:10:18.462+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 2.226 seconds
+[2026-05-29T13:10:49.099+0000] {processor.py:161} INFO - Started process (PID=148) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:10:49.100+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:10:49.102+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:10:49.102+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:10:49.636+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:10:49.652+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:10:49.651+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:10:49.669+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:10:49.669+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-28 00:00:00+00:00, run_after=2026-05-29 00:00:00+00:00
+[2026-05-29T13:10:49.688+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.595 seconds
+[2026-05-29T13:11:19.778+0000] {processor.py:161} INFO - Started process (PID=212) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:11:19.779+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:11:19.781+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:11:19.780+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:11:20.294+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:11:20.332+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:11:20.331+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:11:20.352+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:11:20.351+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:11:20.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.599 seconds
+[2026-05-29T13:11:51.160+0000] {processor.py:161} INFO - Started process (PID=275) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:11:51.161+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:11:51.164+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:11:51.163+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:11:51.918+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:11:51.942+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:11:51.942+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:11:51.997+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:11:51.996+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:11:52.028+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.877 seconds
+[2026-05-29T13:12:22.472+0000] {processor.py:161} INFO - Started process (PID=335) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:12:22.473+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:12:22.476+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:12:22.476+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:12:23.090+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:12:23.111+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:12:23.110+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:12:23.152+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:12:23.152+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:12:23.173+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.711 seconds
+[2026-05-29T13:12:53.354+0000] {processor.py:161} INFO - Started process (PID=397) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:12:53.356+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:12:53.358+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:12:53.358+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:12:53.937+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:12:53.954+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:12:53.954+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:12:53.972+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:12:53.971+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:12:55.269+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 1.922 seconds
+[2026-05-29T13:13:25.447+0000] {processor.py:161} INFO - Started process (PID=458) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:13:25.448+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:13:25.451+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:13:25.450+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:13:25.907+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:13:25.924+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:13:25.923+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:13:25.942+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:13:25.941+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:13:25.957+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.517 seconds
+[2026-05-29T13:13:56.103+0000] {processor.py:161} INFO - Started process (PID=518) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:13:56.104+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:13:56.106+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:13:56.106+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:13:56.699+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:13:56.719+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:13:56.718+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:13:56.739+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:13:56.738+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:13:56.760+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.664 seconds
+[2026-05-29T13:14:26.812+0000] {processor.py:161} INFO - Started process (PID=581) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:14:26.813+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:14:26.815+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:14:26.815+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:14:27.309+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:14:27.325+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:14:27.325+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:14:27.345+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:14:27.344+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:14:27.362+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.558 seconds
+[2026-05-29T13:14:58.138+0000] {processor.py:161} INFO - Started process (PID=643) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:14:58.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:14:58.143+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:14:58.142+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:14:58.660+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:14:58.677+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:14:58.677+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:14:58.697+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:14:58.697+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:14:58.717+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.589 seconds
+[2026-05-29T13:15:29.566+0000] {processor.py:161} INFO - Started process (PID=706) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:15:29.567+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:15:29.569+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:15:29.569+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:15:30.069+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:15:30.084+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:15:30.084+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:15:30.104+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:15:30.104+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:15:30.122+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.562 seconds
+[2026-05-29T13:17:10.022+0000] {processor.py:161} INFO - Started process (PID=79) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:17:10.023+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:17:10.026+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:17:10.025+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:17:11.562+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:17:11.847+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:17:11.847+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:17:11.866+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:17:11.866+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:17:11.891+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 1.881 seconds
+[2026-05-29T13:17:42.127+0000] {processor.py:161} INFO - Started process (PID=153) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:17:42.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:17:42.131+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:17:42.131+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:17:42.688+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:17:42.703+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:17:42.703+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:17:42.720+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:17:42.720+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:17:42.736+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.615 seconds
+[2026-05-29T13:18:12.893+0000] {processor.py:161} INFO - Started process (PID=223) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:18:12.895+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:18:12.897+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:18:12.897+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:18:13.363+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:18:13.379+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:18:13.378+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:18:13.398+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:18:13.398+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:18:13.416+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.530 seconds
+[2026-05-29T13:18:43.507+0000] {processor.py:161} INFO - Started process (PID=285) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:18:43.508+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:18:43.510+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:18:43.509+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:18:44.010+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:18:44.025+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:18:44.025+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:18:44.043+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:18:44.043+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:18:44.059+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.559 seconds
+[2026-05-29T13:19:14.206+0000] {processor.py:161} INFO - Started process (PID=350) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:19:14.207+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:19:14.209+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:19:14.208+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:19:14.642+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:19:14.657+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:19:14.656+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:19:14.675+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:19:14.675+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:19:14.691+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.491 seconds
+[2026-05-29T13:19:45.660+0000] {processor.py:161} INFO - Started process (PID=411) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:19:45.661+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:19:45.663+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:19:45.663+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:19:46.128+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:19:46.143+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:19:46.143+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:19:46.164+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:19:46.164+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:19:46.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.529 seconds
+[2026-05-29T13:20:16.272+0000] {processor.py:161} INFO - Started process (PID=471) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:20:16.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:20:16.275+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:20:16.275+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:20:16.758+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:20:16.775+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:20:16.775+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:20:16.795+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:20:16.795+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:20:16.812+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.548 seconds
+[2026-05-29T13:20:47.068+0000] {processor.py:161} INFO - Started process (PID=534) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:20:47.069+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:20:47.071+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:20:47.071+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:20:47.536+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:20:47.551+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:20:47.551+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:20:47.568+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:20:47.568+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:20:47.592+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.530 seconds
+[2026-05-29T13:21:17.936+0000] {processor.py:161} INFO - Started process (PID=596) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:21:17.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:21:17.940+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:21:17.939+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:21:18.391+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:21:18.407+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:21:18.407+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:21:18.426+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:21:18.426+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:21:18.507+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.578 seconds
+[2026-05-29T13:21:48.556+0000] {processor.py:161} INFO - Started process (PID=658) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:21:48.557+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:21:48.560+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:21:48.559+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:21:48.996+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:21:49.013+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:21:49.013+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:21:49.030+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:21:49.030+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:21:49.046+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.497 seconds
+[2026-05-29T13:22:20.034+0000] {processor.py:161} INFO - Started process (PID=719) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:22:20.035+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:22:20.037+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:22:20.037+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:22:20.626+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:22:20.644+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:22:20.643+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:22:20.671+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:22:20.670+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:22:20.700+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.673 seconds
+[2026-05-29T13:22:50.904+0000] {processor.py:161} INFO - Started process (PID=783) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:22:50.907+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:22:50.915+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:22:50.914+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:22:51.466+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:22:51.489+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:22:51.489+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:22:51.511+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:22:51.511+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:22:51.531+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.637 seconds
+[2026-05-29T13:23:21.993+0000] {processor.py:161} INFO - Started process (PID=843) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:23:21.994+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:23:21.996+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:23:21.996+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:23:22.470+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:23:22.486+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:23:22.485+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:23:22.504+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:23:22.504+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:23:22.522+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.536 seconds
+[2026-05-29T13:23:52.926+0000] {processor.py:161} INFO - Started process (PID=903) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:23:52.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:23:52.929+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:23:52.929+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:23:53.380+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:23:53.395+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:23:53.395+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:23:53.413+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:23:53.413+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:23:53.431+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.511 seconds
+[2026-05-29T13:24:23.531+0000] {processor.py:161} INFO - Started process (PID=967) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:24:23.532+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:24:23.534+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:24:23.534+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:24:23.993+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:24:24.009+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:24:24.009+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:24:24.028+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:24:24.027+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:24:24.047+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.523 seconds
+[2026-05-29T13:24:54.113+0000] {processor.py:161} INFO - Started process (PID=1029) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:24:54.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:24:54.116+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:24:54.116+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:24:54.619+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:24:54.635+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:24:54.634+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:24:54.652+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:24:54.652+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:24:54.667+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.561 seconds
+[2026-05-29T13:25:24.808+0000] {processor.py:161} INFO - Started process (PID=1092) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:25:24.809+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:25:24.811+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:25:24.811+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:25:25.300+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:25:25.316+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:25:25.316+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:25:25.335+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:25:25.335+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:25:25.352+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.551 seconds
+[2026-05-29T13:25:56.175+0000] {processor.py:161} INFO - Started process (PID=1153) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:25:56.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:25:56.178+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:25:56.177+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:25:56.640+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:25:56.656+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:25:56.656+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:25:56.677+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:25:56.677+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:25:56.696+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.528 seconds
+[2026-05-29T13:26:26.824+0000] {processor.py:161} INFO - Started process (PID=1213) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:26:26.825+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:26:26.827+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:26:26.827+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:26:27.328+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:26:27.354+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:26:27.353+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:26:27.376+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:26:27.376+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:26:27.393+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.575 seconds
+[2026-05-29T13:26:57.518+0000] {processor.py:161} INFO - Started process (PID=1277) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:26:57.519+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:26:57.521+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:26:57.521+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:26:57.991+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:26:58.007+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:26:58.006+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:26:58.027+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:26:58.026+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:26:58.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.533 seconds
+[2026-05-29T13:27:28.130+0000] {processor.py:161} INFO - Started process (PID=1337) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:27:28.132+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:27:28.134+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:27:28.134+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:27:28.665+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:27:28.680+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:27:28.680+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:27:28.701+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:27:28.700+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:27:28.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.597 seconds
+[2026-05-29T13:27:58.878+0000] {processor.py:161} INFO - Started process (PID=1402) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:27:58.879+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:27:58.883+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:27:58.882+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:27:59.379+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:27:59.399+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:27:59.399+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:27:59.421+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:27:59.421+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:27:59.439+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.568 seconds
+[2026-05-29T13:28:29.957+0000] {processor.py:161} INFO - Started process (PID=1463) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:28:29.958+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:28:29.960+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:28:29.960+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:28:30.418+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:28:30.434+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:28:30.433+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:28:30.458+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:28:30.458+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:28:30.480+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.531 seconds
+[2026-05-29T13:29:00.834+0000] {processor.py:161} INFO - Started process (PID=1523) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:29:00.836+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:29:00.838+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:29:00.838+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:29:01.352+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:29:01.367+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:29:01.367+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:29:01.385+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:29:01.385+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:29:01.406+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.579 seconds
+[2026-05-29T13:29:31.539+0000] {processor.py:161} INFO - Started process (PID=1583) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:29:31.540+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:29:31.542+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:29:31.541+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:29:32.004+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:29:32.018+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:29:32.018+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:29:32.036+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:29:32.036+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:29:32.055+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.522 seconds
+[2026-05-29T13:30:02.167+0000] {processor.py:161} INFO - Started process (PID=1648) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:30:02.169+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:30:02.171+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:30:02.170+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:30:02.689+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:30:02.705+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:30:02.704+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:30:02.723+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:30:02.723+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:30:02.836+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.675 seconds
+[2026-05-29T13:30:32.972+0000] {processor.py:161} INFO - Started process (PID=1710) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:30:32.973+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:30:32.976+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:30:32.975+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:30:33.484+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:30:33.502+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:30:33.502+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:30:33.521+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:30:33.521+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:30:33.538+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.572 seconds
+[2026-05-29T13:31:03.657+0000] {processor.py:161} INFO - Started process (PID=1770) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:31:03.658+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:31:03.660+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:31:03.660+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:31:04.276+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:31:04.299+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:31:04.298+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:31:04.325+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:31:04.325+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:31:04.349+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.701 seconds
+[2026-05-29T13:31:50.453+0000] {processor.py:161} INFO - Started process (PID=1835) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:31:50.457+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:31:50.460+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:31:50.459+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:31:51.290+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:31:51.319+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:31:51.318+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:31:51.351+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:31:51.351+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:31:51.388+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.945 seconds
+[2026-05-29T13:34:13.646+0000] {processor.py:161} INFO - Started process (PID=82) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:34:13.648+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:34:13.652+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:34:13.651+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:34:15.245+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:34:15.561+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:34:15.560+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:34:15.581+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:34:15.581+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:34:15.607+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 1.972 seconds
+[2026-05-29T13:34:46.277+0000] {processor.py:161} INFO - Started process (PID=146) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:34:46.279+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:34:46.283+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:34:46.282+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:34:46.876+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:34:46.892+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:34:46.891+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:34:46.913+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:34:46.912+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:34:46.931+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.667 seconds
+[2026-05-29T13:35:17.019+0000] {processor.py:161} INFO - Started process (PID=210) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:35:17.020+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:35:17.022+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:35:17.022+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:35:17.514+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:35:17.529+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:35:17.529+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:35:17.546+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:35:17.546+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:35:17.565+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.555 seconds
+[2026-05-29T13:35:47.715+0000] {processor.py:161} INFO - Started process (PID=274) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:35:47.716+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:35:47.719+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:35:47.718+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:35:48.343+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:35:48.367+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:35:48.366+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:35:48.391+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:35:48.390+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:35:48.411+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.702 seconds
+[2026-05-29T13:36:19.304+0000] {processor.py:161} INFO - Started process (PID=334) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:36:19.307+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:36:19.331+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:36:19.331+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:36:20.130+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:36:20.149+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:36:20.149+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:36:20.170+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:36:20.170+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:36:20.193+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.897 seconds
+[2026-05-29T13:37:01.636+0000] {processor.py:161} INFO - Started process (PID=397) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:37:01.639+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:37:01.643+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:37:01.642+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:37:02.389+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:37:02.418+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:37:02.417+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:37:02.491+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:37:02.491+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:37:02.535+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.920 seconds
+[2026-05-29T13:37:35.582+0000] {processor.py:161} INFO - Started process (PID=455) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:37:35.584+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:37:35.588+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:37:35.587+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:37:36.587+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:37:36.615+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:37:36.614+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:37:36.652+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:37:36.652+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:37:36.682+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 1.109 seconds
+[2026-05-29T13:38:07.612+0000] {processor.py:161} INFO - Started process (PID=518) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:38:07.620+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:38:07.631+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:38:07.630+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:38:08.561+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:38:08.588+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:38:08.588+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:38:08.628+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:38:08.628+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:38:08.657+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 1.058 seconds
+[2026-05-29T13:42:34.257+0000] {processor.py:161} INFO - Started process (PID=64) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:42:34.259+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:42:34.263+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:42:34.262+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:42:34.981+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:42:35.119+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:42:35.119+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:42:35.140+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:42:35.140+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:42:35.165+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.917 seconds
+[2026-05-29T13:43:05.286+0000] {processor.py:161} INFO - Started process (PID=129) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:43:05.289+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:43:05.292+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:43:05.291+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:43:05.738+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:43:05.753+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:43:05.753+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:43:05.770+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:43:05.770+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:43:05.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.508 seconds
+[2026-05-29T13:43:35.960+0000] {processor.py:161} INFO - Started process (PID=197) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:43:35.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:43:35.963+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:43:35.963+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:43:36.415+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:43:36.434+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:43:36.434+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:43:36.453+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:43:36.452+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:43:36.470+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.516 seconds
+[2026-05-29T13:44:07.120+0000] {processor.py:161} INFO - Started process (PID=258) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:44:07.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:44:07.123+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:44:07.122+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:44:07.620+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:44:07.638+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:44:07.638+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:44:07.656+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:44:07.655+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:44:07.681+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.571 seconds
+[2026-05-29T13:44:37.738+0000] {processor.py:161} INFO - Started process (PID=322) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:44:37.739+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:44:37.741+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:44:37.740+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:44:38.147+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:44:38.163+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:44:38.162+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:44:38.180+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:44:38.180+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:44:38.195+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.463 seconds
+[2026-05-29T13:45:08.280+0000] {processor.py:161} INFO - Started process (PID=383) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:45:08.281+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:45:08.283+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:45:08.283+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:45:08.746+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:45:08.762+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:45:08.762+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:45:08.781+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:45:08.781+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:45:08.798+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.523 seconds
+[2026-05-29T13:45:38.915+0000] {processor.py:161} INFO - Started process (PID=445) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:45:38.916+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:45:38.918+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:45:38.918+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:45:39.336+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:45:39.351+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:45:39.351+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:45:39.368+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:45:39.368+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:45:39.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.474 seconds
+[2026-05-29T13:46:10.326+0000] {processor.py:161} INFO - Started process (PID=505) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:46:10.327+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:46:10.330+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:46:10.329+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:46:10.858+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:46:10.873+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:46:10.872+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:46:10.890+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:46:10.890+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:46:10.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.595 seconds
+[2026-05-29T13:46:41.632+0000] {processor.py:161} INFO - Started process (PID=565) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:46:41.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:46:41.636+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:46:41.635+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:46:42.107+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:46:42.122+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:46:42.122+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:46:42.139+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:46:42.139+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:46:42.159+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.533 seconds
+[2026-05-29T13:47:12.279+0000] {processor.py:161} INFO - Started process (PID=628) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:47:12.280+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:47:12.282+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:47:12.282+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:47:12.722+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:47:12.739+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:47:12.739+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:47:12.758+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:47:12.758+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:47:12.779+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.506 seconds
+[2026-05-29T13:47:42.821+0000] {processor.py:161} INFO - Started process (PID=690) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:47:42.822+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:47:42.824+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:47:42.824+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:47:43.260+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:47:43.278+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:47:43.277+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:47:43.296+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:47:43.296+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:47:43.313+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.492 seconds
+[2026-05-29T13:48:13.422+0000] {processor.py:161} INFO - Started process (PID=754) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:48:13.423+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:48:13.425+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:48:13.425+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:48:13.827+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:48:13.842+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:48:13.842+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:48:13.860+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:48:13.860+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:48:13.876+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.459 seconds
+[2026-05-29T13:48:44.817+0000] {processor.py:161} INFO - Started process (PID=814) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:48:44.818+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:48:44.820+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:48:44.820+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:48:45.266+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:48:45.281+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:48:45.280+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:48:45.299+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:48:45.299+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:48:45.316+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.504 seconds
+[2026-05-29T13:49:15.456+0000] {processor.py:161} INFO - Started process (PID=878) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:49:15.457+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:49:15.459+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:49:15.458+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:49:15.956+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:49:15.973+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:49:15.972+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:49:15.993+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:49:15.993+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:49:16.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.561 seconds
+[2026-05-29T13:49:46.828+0000] {processor.py:161} INFO - Started process (PID=941) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:49:46.829+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:49:46.832+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:49:46.831+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:49:47.263+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:49:47.279+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:49:47.279+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:49:47.299+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:49:47.299+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:49:47.317+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.498 seconds
+[2026-05-29T13:50:17.417+0000] {processor.py:161} INFO - Started process (PID=1001) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:50:17.419+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:50:17.422+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:50:17.421+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:50:17.937+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:50:17.952+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:50:17.951+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:50:17.968+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:50:17.968+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:50:17.990+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.585 seconds
+[2026-05-29T13:50:49.017+0000] {processor.py:161} INFO - Started process (PID=1065) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:50:49.018+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:50:49.020+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:50:49.019+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:50:49.473+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:50:49.490+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:50:49.490+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:50:49.509+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:50:49.508+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:50:49.527+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.517 seconds
+[2026-05-29T13:51:19.623+0000] {processor.py:161} INFO - Started process (PID=1129) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:51:19.625+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:51:19.626+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:51:19.626+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:51:20.055+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:51:20.071+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:51:20.071+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:51:20.090+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:51:20.090+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:51:20.110+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.493 seconds
+[2026-05-29T13:51:50.245+0000] {processor.py:161} INFO - Started process (PID=1194) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:51:50.246+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:51:50.249+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:51:50.249+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:51:50.751+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:51:50.770+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:51:50.770+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:51:50.792+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:51:50.792+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:51:50.812+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.575 seconds
+[2026-05-29T13:52:20.911+0000] {processor.py:161} INFO - Started process (PID=1258) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:52:20.912+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:52:20.914+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:52:20.914+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:52:21.356+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:52:21.371+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:52:21.370+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:52:21.389+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:52:21.389+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:52:21.408+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.503 seconds
+[2026-05-29T13:52:51.610+0000] {processor.py:161} INFO - Started process (PID=1323) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:52:51.611+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:52:51.613+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:52:51.613+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:52:52.004+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:52:52.019+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:52:52.018+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:52:52.035+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:52:52.035+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:52:52.051+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.447 seconds
+[2026-05-29T13:53:22.196+0000] {processor.py:161} INFO - Started process (PID=1384) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:53:22.197+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:53:22.199+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:53:22.199+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:53:22.584+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:53:22.599+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:53:22.599+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:53:22.617+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:53:22.617+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:53:22.633+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.443 seconds
+[2026-05-29T13:53:53.078+0000] {processor.py:161} INFO - Started process (PID=1441) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:53:53.079+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:53:53.081+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:53:53.081+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:53:53.547+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:53:53.563+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:53:53.563+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:53:53.581+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:53:53.581+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:53:53.598+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.527 seconds
+[2026-05-29T13:54:23.835+0000] {processor.py:161} INFO - Started process (PID=1499) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:54:23.836+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:54:23.838+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:54:23.838+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:54:24.308+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:54:24.325+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:54:24.325+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:54:24.345+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:54:24.345+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:54:24.362+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.533 seconds
+[2026-05-29T13:54:54.572+0000] {processor.py:161} INFO - Started process (PID=1560) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:54:54.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:54:54.575+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:54:54.575+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:54:55.049+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:54:55.065+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:54:55.065+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:54:55.084+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:54:55.084+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:54:55.100+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.534 seconds
+[2026-05-29T13:55:25.721+0000] {processor.py:161} INFO - Started process (PID=1619) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:55:25.722+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:55:25.724+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:55:25.724+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:55:26.358+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:55:26.377+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:55:26.376+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:55:26.398+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:55:26.397+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:55:26.418+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.705 seconds
+[2026-05-29T13:55:56.971+0000] {processor.py:161} INFO - Started process (PID=1679) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:55:56.972+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:55:56.974+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:55:56.974+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:55:57.412+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:55:57.455+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:55:57.454+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:55:57.495+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:55:57.495+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:55:57.519+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.556 seconds
+[2026-05-29T13:56:27.751+0000] {processor.py:161} INFO - Started process (PID=1739) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:56:27.753+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:56:27.756+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:56:27.756+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:56:28.236+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:56:28.258+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:56:28.257+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:56:28.284+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:56:28.284+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:56:28.312+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.569 seconds
+[2026-05-29T13:57:01.554+0000] {processor.py:161} INFO - Started process (PID=1800) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:57:01.555+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:57:01.557+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:57:01.557+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:57:01.882+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:57:01.899+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:57:01.899+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:57:01.919+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:57:01.919+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:57:01.934+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.387 seconds
+[2026-05-29T13:57:32.858+0000] {processor.py:161} INFO - Started process (PID=1865) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:57:32.859+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:57:32.862+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:57:32.861+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:57:33.226+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:57:33.249+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:57:33.248+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:57:33.274+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:57:33.274+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:57:33.423+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.572 seconds
+[2026-05-29T13:58:03.684+0000] {processor.py:161} INFO - Started process (PID=1919) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:58:03.686+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T13:58:03.689+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:58:03.689+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:58:04.280+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T13:58:04.304+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:58:04.303+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T13:58:04.337+0000] {logging_mixin.py:188} INFO - [2026-05-29T13:58:04.337+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T13:58:04.366+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.691 seconds
+[2026-05-29T14:01:46.432+0000] {processor.py:161} INFO - Started process (PID=65) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T14:01:46.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T14:01:46.437+0000] {logging_mixin.py:188} INFO - [2026-05-29T14:01:46.437+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T14:01:47.100+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T14:01:47.246+0000] {logging_mixin.py:188} INFO - [2026-05-29T14:01:47.245+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T14:01:47.270+0000] {logging_mixin.py:188} INFO - [2026-05-29T14:01:47.270+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T14:01:47.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.870 seconds
+[2026-05-29T14:02:17.504+0000] {processor.py:161} INFO - Started process (PID=130) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T14:02:17.505+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T14:02:17.507+0000] {logging_mixin.py:188} INFO - [2026-05-29T14:02:17.507+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T14:02:17.937+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T14:02:17.952+0000] {logging_mixin.py:188} INFO - [2026-05-29T14:02:17.951+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T14:02:17.969+0000] {logging_mixin.py:188} INFO - [2026-05-29T14:02:17.969+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T14:02:17.985+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.487 seconds
+[2026-05-29T14:02:48.185+0000] {processor.py:161} INFO - Started process (PID=188) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T14:02:48.186+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T14:02:48.189+0000] {logging_mixin.py:188} INFO - [2026-05-29T14:02:48.188+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T14:02:48.684+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T14:02:48.699+0000] {logging_mixin.py:188} INFO - [2026-05-29T14:02:48.698+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T14:02:48.716+0000] {logging_mixin.py:188} INFO - [2026-05-29T14:02:48.716+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T14:02:48.733+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.555 seconds
+[2026-05-29T14:03:18.835+0000] {processor.py:161} INFO - Started process (PID=258) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T14:03:18.836+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T14:03:18.838+0000] {logging_mixin.py:188} INFO - [2026-05-29T14:03:18.838+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T14:03:19.329+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T14:03:19.352+0000] {logging_mixin.py:188} INFO - [2026-05-29T14:03:19.352+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T14:03:19.377+0000] {logging_mixin.py:188} INFO - [2026-05-29T14:03:19.376+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T14:03:19.400+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.572 seconds
+[2026-05-29T14:03:49.652+0000] {processor.py:161} INFO - Started process (PID=317) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T14:03:49.653+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T14:03:49.655+0000] {logging_mixin.py:188} INFO - [2026-05-29T14:03:49.655+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T14:03:50.093+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T14:03:50.109+0000] {logging_mixin.py:188} INFO - [2026-05-29T14:03:50.109+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T14:03:50.127+0000] {logging_mixin.py:188} INFO - [2026-05-29T14:03:50.126+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T14:03:50.143+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.496 seconds
+[2026-05-29T14:04:20.268+0000] {processor.py:161} INFO - Started process (PID=381) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T14:04:20.269+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T14:04:20.271+0000] {logging_mixin.py:188} INFO - [2026-05-29T14:04:20.271+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T14:04:20.724+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T14:04:20.740+0000] {logging_mixin.py:188} INFO - [2026-05-29T14:04:20.739+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T14:04:20.757+0000] {logging_mixin.py:188} INFO - [2026-05-29T14:04:20.757+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T14:04:20.774+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.511 seconds
+[2026-05-29T14:04:51.626+0000] {processor.py:161} INFO - Started process (PID=444) to work on /opt/airflow/dags/dag_ifood.py
+[2026-05-29T14:04:51.627+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dag_ifood.py for tasks to queue
+[2026-05-29T14:04:51.629+0000] {logging_mixin.py:188} INFO - [2026-05-29T14:04:51.629+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T14:04:52.086+0000] {processor.py:840} INFO - DAG(s) 'dag_pipeline_dados_ifood' retrieved from /opt/airflow/dags/dag_ifood.py
+[2026-05-29T14:04:52.102+0000] {logging_mixin.py:188} INFO - [2026-05-29T14:04:52.102+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-05-29T14:04:52.120+0000] {logging_mixin.py:188} INFO - [2026-05-29T14:04:52.119+0000] {dag.py:3954} INFO - Setting next_dagrun for dag_pipeline_dados_ifood to 2026-05-29 00:00:00+00:00, run_after=2026-05-30 00:00:00+00:00
+[2026-05-29T14:04:52.136+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dag_ifood.py took 0.516 seconds
