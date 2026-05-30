@@ -1,19 +1,22 @@
+
 import psycopg2
 from pathlib import Path
 from dotenv import load_dotenv
 import os
 
-# Lendo o .env diretamente da RAIZ do projeto no Docker
 env_path = Path("/opt/airflow/.env")
+if not env_path.exists():
+    env_path = Path(__file__).resolve().parent.parent / ".env.local"
 
 if env_path.exists() and env_path.is_file():   
     load_dotenv(env_path)
 
-# Pasta mapeada corretamente
-pasta_sql = Path("/opt/airflow/pipeline/queries")
-
 def criar_views():
     try:
+        pasta_sql = Path("/opt/airflow/pipeline/queries")
+        if not pasta_sql.exists():
+            pasta_sql = Path(__file__).resolve().parent.parent / "queries"
+
         print(f'Tentando conexão com o banco.')
         conexao = psycopg2.connect(
             dbname=os.getenv("DB_DATABASE"), 
